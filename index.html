@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d0c">
+  <meta name="description" content="OrnalDetailing — detailing samochodowy, pielęgnacja lakieru i wnętrza.">
+  <title>OrnalDetailing — Detailing z charakterem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="OrnalDetailing — strona główna">
+      <span class="brand-mark">OD<span>.</span></span>
+      <span class="brand-name">ORNAL<span>DETAILING</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#uslugi">Usługi</a><a href="#proces">Jak działamy</a><a href="#kontakt">Kontakt</a>
+    </nav>
+    <div class="top-actions">
+      <button class="text-button" id="openLogin">Zaloguj się</button>
+      <a class="button button-small" href="#kontakt">Umów wizytę <span>↗</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Otwórz menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> STUDIO PIELĘGNACJI AUT</div>
+        <h1>Perfekcja<br>jest w <em>detalach.</em></h1>
+        <p class="hero-lead">Przywracamy blask, podkreślamy charakter i dbamy o każdy centymetr Twojego samochodu.</p>
+        <div class="hero-actions">
+          <a class="button" href="#kontakt">Umów swoją wizytę <span>↗</span></a>
+          <a class="link-arrow" href="#uslugi">Poznaj nasze usługi <span>↓</span></a>
+        </div>
+        <div class="hero-proof"><div class="proof-avatars"><b>OD</b><b>✦</b><b>✓</b></div><span>Precyzja. Pasja. Profesjonalna pielęgnacja.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image"></div>
+        <div class="image-shade"></div>
+        <div class="image-label"><span>01 / 03</span><span>DETAILING • CARE • PROTECTION</span></div>
+        <div class="floating-card"><span class="float-icon">✦</span><div><strong>Każdy detal ma znaczenie</strong><small>Indywidualne podejście do auta</small></div></div>
+      </div>
+      <div class="hero-bottom"><span>ORNALDETAILING / EST. WITH PASSION</span><span>PRZEWIŃ, ABY ODKRYĆ <b>↓</b></span></div>
+    </section>
+
+    <section class="intro section-wrap" id="uslugi">
+      <div class="section-kicker">01 — CO ROBIMY</div>
+      <div class="intro-heading"><h2>Twoje auto.<br><em>Nasza precyzja.</em></h2><p>Nie idziemy na skróty. Dobieramy pielęgnację do stanu, potrzeb i charakteru samochodu — tak, by efekt cieszył nie tylko dziś.</p></div>
+      <div class="services-grid">
+        <article class="service-card service-feature">
+          <div class="service-number">01 / DETAILING</div><div class="service-symbol">✧</div>
+          <h3>Detailing<br>zewnętrzny</h3><p>Dokładne mycie, dekontaminacja i pielęgnacja lakieru. Czystość, którą widać w każdym odbiciu.</p><a href="#kontakt">Zapytaj o usługę <span>↗</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-number">02 / INTERIOR</div><div class="service-symbol">◈</div>
+          <h3>Detailing<br>wnętrza</h3><p>Staranna pielęgnacja kokpitu, tapicerki i trudno dostępnych zakamarków.</p><a href="#kontakt">Zapytaj o usługę <span>↗</span></a>
+        </article>
+        <article class="service-card">
+          <div class="service-number">03 / PROTECTION</div><div class="service-symbol">⬡</div>
+          <h3>Ochrona<br>lakieru</h3><p>Rozwiązania ochronne pomagające zachować estetykę i ułatwić codzienną pielęgnację.</p><a href="#kontakt">Zapytaj o usługę <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-image"></div><div class="manifesto-content"><div class="section-kicker">02 — NASZE PODEJŚCIE</div><h2>To nie tylko<br>czyste auto.<br>To <em>satysfakcja.</em></h2><p>Wierzymy, że dobrze wykonana praca nie potrzebuje wielkich słów. Wystarczy spojrzeć na efekt.</p><a class="link-arrow" href="#kontakt">Porozmawiajmy o Twoim aucie <span>↗</span></a></div>
+    </section>
+
+    <section class="process section-wrap" id="proces">
+      <div class="section-kicker">03 — PROSTY PROCES</div><div class="process-head"><h2>Od pierwszego<br>kontaktu do <em>efektu.</em></h2><p>Bez niedomówień. Ustalamy potrzeby, przedstawiamy zakres i działamy z dbałością o szczegóły.</p></div>
+      <div class="steps">
+        <div class="step"><span>01</span><h3>Kontakt</h3><p>Opowiedz nam o samochodzie i oczekiwanym efekcie.</p></div>
+        <div class="step"><span>02</span><h3>Wycena</h3><p>Dobierzemy zakres prac do potrzeb Twojego auta.</p></div>
+        <div class="step"><span>03</span><h3>Realizacja</h3><p>Pracujemy dokładnie i z pełnym skupieniem.</p></div>
+        <div class="step"><span>04</span><h3>Gotowe</h3><p>Odbierasz auto i możesz cieszyć się efektem.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section-wrap" id="kontakt">
+      <div class="contact-copy"><div class="section-kicker">04 — ZRÓBMY COŚ DOBREGO</div><h2>Twój samochód<br>jest <em>w dobrych rękach.</em></h2><p>Napisz, czego potrzebuje Twoje auto. Wrócimy z odpowiedzią i propozycją kolejnych kroków.</p>
+        <div class="contact-detail"><span>✉</span><div><small>NAPISZ DO NAS</small><strong>Kontakt przez formularz</strong></div></div>
+        <div class="contact-detail"><span>⌖</span><div><small>OBSZAR DZIAŁANIA</small><strong>Uzupełnij lokalizację firmy</strong></div></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Imię i nazwisko<input name="name" required minlength="2" maxlength="70" placeholder="Jak się nazywasz?"></label>
+        <label>Adres e-mail<input name="email" type="email" required placeholder="adres@email.com"></label>
+        <label>Interesująca Cię usługa<select name="service" required><option value="">Wybierz usługę</option><option>Detailing zewnętrzny</option><option>Detailing wnętrza</option><option>Ochrona lakieru</option><option>Inna / konsultacja</option></select></label>
+        <label>Wiadomość<textarea name="message" required minlength="10" maxlength="2000" rows="4" placeholder="Napisz kilka słów o swoim samochodzie..."></textarea></label>
+        <button class="button button-submit" type="submit">Wyślij zapytanie <span>↗</span></button>
+        <p class="form-note" id="contactStatus" role="status">Wysyłając formularz, zgadzasz się na kontakt w sprawie zapytania.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">OD<span>.</span></span><span class="brand-name">ORNAL<span>DETAILING</span></span></a><span>© <span id="year"></span> OrnalDetailing. Wszystkie prawa zastrzeżone.</span><a href="#home">NA GÓRĘ ↑</a></footer>
+
+  <div class="modal-backdrop" id="authModal" hidden>
+    <section class="auth-modal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+      <button class="modal-close" id="closeModal" aria-label="Zamknij">×</button>
+      <div class="section-kicker">STREFA KLIENTA</div><h2 id="authTitle">Witaj <em>ponownie.</em></h2><p class="modal-subtitle">Zaloguj się lub utwórz konto klienta.</p>
+      <div class="auth-tabs"><button class="active" data-mode="login">Logowanie</button><button data-mode="register">Rejestracja</button></div>
+      <form id="authForm">
+        <label id="nameField" hidden>Imię i nazwisko<input name="name" autocomplete="name" minlength="2" maxlength="70" placeholder="Twoje imię"></label>
+        <label>E-mail<input name="email" type="email" required autocomplete="email" placeholder="adres@email.com"></label>
+        <label>Hasło<input name="password" type="password" required minlength="10" maxlength="72" autocomplete="current-password" placeholder="Minimum 10 znaków"></label>
+        <button class="button button-submit" type="submit" id="authSubmit">Zaloguj się <span>↗</span></button><p class="form-note" id="authStatus" role="status"></p>
+      </form>
+    </section>
+  </div>
+
+  <div class="dashboard-backdrop" id="dashboard" hidden>
+    <section class="dashboard-panel">
+      <button class="modal-close" id="closeDashboard" aria-label="Zamknij">×</button>
+      <div class="section-kicker">ORNALDETAILING / TWOJE KONTO</div><h2>Witaj, <em id="userName">Kliencie</em>.</h2>
+      <p class="modal-subtitle">To Twoja prywatna strefa klienta.</p>
+      <div class="dashboard-card"><span class="dashboard-icon">✦</span><div><small>STATUS KONTA</small><strong>Aktywne konto klienta</strong><p>Możesz korzystać z formularza kontaktowego, aby wysłać zapytanie o usługę.</p></div></div>
+      <div class="dashboard-card"><span class="dashboard-icon">◎</span><div><small>ADRES E-MAIL</small><strong id="userEmail"></strong><p id="memberSince"></p></div></div>
+      <button class="button logout-button" id="logoutButton">Wyloguj się <span>↗</span></button>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+</body>
+</html>
